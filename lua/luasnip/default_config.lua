@@ -194,7 +194,7 @@ return {
 	},
 	ext_base_prio = 200,
 	ext_prio_increase = 9,
-	enable_autosnippets = false,
+	enable_autosnippets = true,
 	parser_nested_assembler = function(pos, snip)
 		-- only require here, to prevent some upfront load-cost.
 		local iNode = require("luasnip.nodes.insertNode")
